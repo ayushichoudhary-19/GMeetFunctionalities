@@ -1,0 +1,16 @@
+/* 
+#delayChart {
+    display: none;
+} */
+
+body,
+html {
+  height: 700px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+canvas {
+  width: 700px;
+}
