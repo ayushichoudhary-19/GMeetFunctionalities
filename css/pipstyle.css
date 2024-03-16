@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+  }
+
+  .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  #canvasElement {
+    position: relative;
+    border: 1px solid #444;
+    background-color: #333;
+    border-radius: 5px;
+    display: block;
+  }
+  .bringBackDiv {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .bringBackDiv h1 {
+    margin-bottom: 20px;
+  }
+
+  .bringBackDiv button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .bringBackDiv button:hover {
+    background-color: #2980b9;
+  }
+
+  .menu-button {
+    position: absolute;
+    bottom: 50px;
+    left: calc(50% - 120px);
+    cursor: pointer;
+    background-color: rgb(60, 64, 67);
+    padding: 15px;
+    height: 3rem;
+    width: 3rem;
+    font-size: 18px;
+    border-radius: 50%;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+  }
+  .menu-button:hover {
+    background-color: rgb(70, 74, 77);
+  }
+
+  .close-icon {
+    position: absolute;
+    bottom: 50px;
+    left: calc(50% + 120px);
+    cursor: pointer;
+    background-color: rgb(234, 67, 53);
+    padding: 15px;
+    height: 1rem;
+    width: 1rem;
+    font-size: 18px;
+    border-radius: 50%;
+  }
+  .close-icon:hover {
+    background-color: rgb(249, 85, 70);
+  }
+
+  .pip-options {
+    position: absolute;
+    bottom: 50px;
+    left: calc(50% - 60px);
+    background-color: #333;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    display: none;
+  }
+
+  .pip-options button {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #fff;
+  }
+
+  .pip-options button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }

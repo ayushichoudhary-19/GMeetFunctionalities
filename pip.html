@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pip-Functionality</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/pipstyle.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <div class="bringBackDiv">
+          <h1>Open in some other window</h1>
+          <button id="bringBackButton">Bring Back Here</button>
+        </div>
+        <canvas id="canvasElement" width="1000" height="500"></canvas>
+      </div>
+
+      <button class="menu-button" id="menuButton">
+        <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+      </button>
+      <div class="close-icon" id="closeIcon"><i class="fa fa-phone"></i></div>
+      <div class="pip-options" id="pipOptions">
+        <button id="togglePipButton">Open Picture-in-Picture</button>
+      </div>
+    </div>
+
+    <script src="js/pipscript.js"></script>
+  </body>
+</html>
