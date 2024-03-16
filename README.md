@@ -1,23 +1,27 @@
 
 
-- This repo currently demonstrates real-time monitoring of connection delay using `Chart.js` and fetch API.
+# This repo currently demonstrates:
+  -  real-time monitoring of connection delay using `Chart.js` and fetch API.
+  -  picture-in-picture functionality.
 
-## Setup
-
-### Prerequisites
-
-Make sure you have Node.js and npm installed on your machine.
+# Setup
 
 ### Installation
 
-1. Clone the repository:
+- Clone the repository:
 
 ```bash
 git clone <repository_url>
 cd GMeetFunctionalities
 ```
 
-2. Install dependencies:
+## 1. For real-time connection delay monitoring: 
+
+### Prerequisites
+
+- Make sure you have Node.js and npm installed on your machine.
+
+- Install dependencies:
 
 ```bash
 npm install
@@ -38,7 +42,7 @@ npm start
 This command will start the Express server and the application will be running at [http://localhost:3000](http://localhost:3000).
 
 
-## Dependencies
+### Dependencies
 
 - [@cubejs-client/core](https://www.npmjs.com/package/@cubejs-client/core): ^0.31.0
 - [chart.js](https://www.npmjs.com/package/chart.js): ^4.0.0
@@ -47,3 +51,20 @@ This command will start the Express server and the application will be running a
 - [express](https://www.npmjs.com/package/express): ^4.18.3
 - [moment](https://www.npmjs.com/package/moment): ^2.30.1
 
+
+## 2. For Picture-in-Picture Functionality
+
+### Prerequisites
+None required.
+
+### Configuration
+
+No additional configuration is required.
+
+### Running the Application
+
+Start the web page running the following command:
+
+```bash
+start pip.html
+```
